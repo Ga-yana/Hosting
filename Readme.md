@@ -7,7 +7,7 @@ By Ga-yana :computer:
 
 ## A static homepage for hosting.
 
-### Click [here]() to see it live
+### Click [here](https://hostingblue.netlify.app/) to see it live
 
 ![Homepage](./Images/Screenshot%202022-08-05%20at%207.32.51%20PM.png)
 ![Homepage](./Images/Screenshot%202022-08-05%20at%207.32.59%20PM.png)
