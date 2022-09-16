@@ -9,12 +9,14 @@ body{
     background-color: #FDFEFF;
 }
 
+
 .navbar{
     display: flex;
-    flex-direction: row;
-    height: 12vh;
+    margin: 0 130px 0 130px;
+    padding-top: 20px;
     align-items: center;
-    justify-content: space-around;
+    gap: 170px;
+
 }
 
 .nav-lists{
@@ -23,7 +25,6 @@ body{
     flex-direction: row;
     gap: 30px;
     color: #90969c;
-    margin-left: 490px;
 }
 
 .logo img{
@@ -47,14 +48,15 @@ body{
 .web-host{
     display: flex;
     flex-direction: row;
-    align-items: flex-start;
+    align-items: center;
+    justify-content: space-between;
     margin-top: 15vh;
     margin-left: 130px;
+    margin-right: 130px;
 }
 
 .web-host-right img{
-    width: 600px;
-    margin-right: 90px;
+    max-width: 600px;
     margin-top: 25px;
 }
 
@@ -65,13 +67,13 @@ body{
 
 .head-1{
     font-size: 55px;
-  margin-right: 150px;
+  max-width: 450px;
   line-height: 70px;
   color: #1A1A1A;
 }
 
 .line-1{
-    margin-right: 150px;
+    max-width: 450px;
     margin-top: 30px;
     line-height: 35px;
     color: #90969c;
@@ -92,10 +94,12 @@ body{
 .test{
     display: flex;
     margin-top: 250px;
+    align-items: center;
+
 }
 
 .test-left img{
-    width: 550px;
+    max-width: 600px;
     margin-left: 100px;
 }
 
@@ -132,7 +136,7 @@ body{
 .support{
     display: flex;
     flex-direction: row;
-    align-items: flex-start;
+    align-items: center;
     margin-top: 150px;
 }
 
@@ -202,6 +206,7 @@ body{
     align-content:space-between;
     height: 550px;
     margin-top: 70px;
+    
 }
 
 .serve-flex-item{
@@ -229,8 +234,9 @@ body{
 .price-main{
   
     margin-top: 150px;
-   height: 930px;
+   /* height: 930px; */
    background-image: linear-gradient( #22B7F6,#1369EB);
+   padding-bottom: 70px;
 }
 .price-heading{
     font-size: 45px;
@@ -244,7 +250,6 @@ body{
     margin-left: 130px;
     margin-right: 130px;
     justify-content: center;
-   
     gap: 20px;
 }
 .package{
@@ -331,7 +336,6 @@ padding-left: 30px;
 }
 
 .review{
-   
     margin-top: 50px;
     display: flex;
     flex-direction: row;
@@ -342,7 +346,7 @@ padding-left: 30px;
 }
 .review-flex-item{
     color: #51565a;
-    width: 524px;
+    max-width: 524px;
     border: 1px solid #a6adb4;
     padding: 30px 25px 25px 25px;
     line-height: 26px;
@@ -383,7 +387,7 @@ padding-left: 30px;
 }
 .registration-left{
    
-    width: 500px;
+    max-width: 500px;
    
 }
 .registration-line{
@@ -407,7 +411,7 @@ padding-left: 30px;
     margin-left: 130px;
     margin-right: 130px;
     height: 250px;
-    justify-content: space-between;
+    gap: 120px;
 }
 .footer-1{
     
@@ -448,4 +452,287 @@ padding-left: 30px;
 }
 .menu-lists li, .links-lists li, .overview-lists li{
     padding-bottom: 20px;
+}
+
+@media screen and (max-width:768px) {
+    .navbar{
+        display: flex;
+        gap: 60px;
+        margin: 0 50px 0 50px;
+    }
+    .nav-lists{
+        gap: 10px;
+        font-size: 14px;
+    }
+    .register-1{
+       font-size: 15px;
+       padding: 8px 10px;
+    }
+    .web-host{
+        margin: 50px 50px 0 50px;
+        /* width:588px; */
+        /* gap: 100px; */
+    }
+    .head-1{
+        font-size: 30px;
+        line-height: 45px;
+        width: 250px;
+    }
+    .btn-1, .btn-2, .btn-3{
+        margin-top: 20px;
+        padding: 12px 8px;
+    }
+    .line-1{
+        width: 250px;
+        margin-top: 20px;
+        line-height: 30px;
+    }
+    .web-host-right img{
+        max-width: 400px;
+    }
+    .test{
+        margin: 50px 50px 0 50px;
+        /* width:588px; */
+        /* gap: 100px; */
+    }
+    .head-2{
+        font-size: 30px;
+        line-height: 45px;
+        width: 250px;
+        margin-right: 0;
+    }
+    .line-2{
+        width: 250px;
+        margin-top: 20px;
+        line-height: 30px;
+        margin-right: 0;
+    }
+    .test-left img{
+        max-width: 400px;
+        margin-left: 0px;
+    }
+    .test-right{
+        margin-left: 0;
+    }
+    .support{
+        margin: 50px 50px 0 50px;
+        /* width:588px; */
+        /* gap: 100px; */
+    }
+    .head-3{
+        font-size: 30px;
+        line-height: 45px;
+        width: 300px;
+        /* margin-right: 0; */
+    }
+    .line-3{
+        width: 300px;
+        margin-top: 20px;
+        line-height: 30px;
+
+        /* margin-right: 0; */
+    }
+    .support-left{
+        margin-left: 0;
+    }
+    .support-right img{
+        max-width: 350px;
+        margin-left: 0px;
+        margin-right: 0;
+        margin-top: 30px;
+    }
+    .last{
+        margin: 150px 50px 0 50px;
+        gap: 40px;
+    }
+    .footer-line{
+        max-width: 200px;
+    }
+    .top{
+        font-size: 18px;
+    }
+    .serving{
+        flex-direction: column;
+        margin: 110px 50px 0 50px;
+        align-items: center;
+    }
+    .head-4{
+        font-size: 30px;
+    }
+    .line-4{
+        margin-left: 0;
+        margin-right: 0;
+        text-align: center;
+    }
+    .serve-flex{
+        margin: 70px 50px 0 50px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 25px;
+        padding-bottom: 50px;
+    }
+    .price-main{
+        margin-top: 250px;
+    }
+    .price-heading{
+        font-size: 30px;
+    }
+    .pricing{
+        margin: 50px 50px 0 50px;
+
+    }
+    .head{
+        font-size: 22px;
+    }
+    .sub{
+        font-size: 15px;
+    }
+    .package-list{
+        padding-left: 10px;
+        font-size: 15px;
+    }
+    .cost{
+        font-size: 25px;
+    }
+    .cancel{
+        margin-top: 10px;
+    }
+    .btn-choose{
+        padding: 10px 20px;
+        margin-left: 50px;
+    }
+    .black{
+        padding-left: 15px;
+    }
+    .starter-pack .package-list{
+        margin-top: 54px;
+    }
+    .business-package .package-list{
+        margin-top: 34px;
+    }
+    .customer-head{
+        font-size: 30px;
+    }
+    .customer-line{
+        margin-top: 25px;
+    }
+    .registration-head{
+        font-size: 30px;
+        line-height: 35px;
+    }
+}
+
+
+@media screen and (max-width:425px) {
+   .nav-lists{
+    display: none;
+   }
+   .navbar{
+    margin: 20px 30px 0 30px;
+    justify-content: space-between;
+   }
+   .web-host, .support{
+    flex-direction: column;
+    margin: 30px 30px 0 30px;
+   }
+   .test{
+    flex-direction: column-reverse;
+   }
+   .review{
+    display: grid;
+    grid-template-columns: 1fr;
+    margin: 50px 50px 0 50px;
+    gap: 10px;
+   }
+   .review-flex-item{
+    padding: 15px 10px 10px 10px;
+   }
+   .last{
+    display: grid;
+    grid-template-columns: 1fr ;
+   }
+   .social-flex{
+    justify-content: start;
+   }
+   .web-host-right img, .test-left img{
+    max-width: 300px;
+   }
+   .test-left img{
+    margin-top: 10px;
+
+   }
+   .support-right img{
+    max-width: 250px;
+    margin-top: 10px;
+   }
+   .head-1, .line-1,.head-2, .line-2,.head-3, .line-3{
+    width: 350px;
+    text-align: center;
+   }
+   .btn-1{
+    align-self: center;
+   }
+   .btn-3{
+    margin-left: 70px;
+   }
+   .head-4{
+    font-size: 25px;
+    line-height: 40px;
+    text-align: center;
+   }
+   .line-4{
+    margin-top: 15px;
+   }
+   .serve-flex .serve-flex-item h4{
+    margin-top: 15px;
+   }
+   .serve-flex .serve-flex-item p{
+    margin-top: 10px;
+   }
+   .serve-flex{
+    grid-template-columns: 1fr;
+    gap: 10px;
+   }
+   .price-main{
+    margin-top: 950px;
+   }
+   .price-heading{
+    font-size: 25px;
+   }
+   .pricing{
+    margin: 50px 70px 0 70px;
+    flex-direction: column;
+   }
+   .package{
+    width: 285px;
+    height: 620px;
+   }
+   .starter-pack .package-list{
+    margin-top: 30px;
+   }
+   .cost{
+    margin-top: 30px;
+   }
+   .btn-choose{
+    margin-left: 80px;
+   }
+   .customer-head{
+    font-size: 25px;
+   }
+   .customer-line{
+    margin: 25px 30px 0 30px;
+   }
+   .registration{
+    flex-direction: column;
+   }
+   .registration-head{
+    font-size: 25px;
+    margin: 0 30px 0 30px;
+    text-align: center;
+   }
+   .registration-line{
+    margin: 20px 40px 0 40px;
+    text-align: center;
+   
+   }
 }
