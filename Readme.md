@@ -6,6 +6,7 @@ By Ga-yana :computer:
 #
 
 ## A static homepage for hosting.
+Tablet and mobile(at 425px) responsive too.
 
 ### Click [here](https://hostingblue.netlify.app/) to see it live
 
